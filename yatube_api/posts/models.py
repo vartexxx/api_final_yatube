@@ -61,7 +61,6 @@ class Post(models.Model):
     )
 
     class Meta:
-        ordering = ('-pub_date',)
         verbose_name = 'Пост'
         verbose_name_plural = 'Посты'
 
@@ -112,6 +111,4 @@ class Follow(models.Model):
     class Meta:
         verbose_name = 'Подписка'
         verbose_name_plural = 'Подписки'
-        constraints = [models.UniqueConstraint(
-            fields=['user', 'following'], name='unique_following'
-        )]
+        unique_together = ("user", "following")

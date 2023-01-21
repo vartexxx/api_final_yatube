@@ -11,26 +11,28 @@ API для социальной сети проекта Yatube.
 
 ```
 git clone https://github.com/vartexxx/api_final_yatube.git
-```
-```
+
 cd api_final_yatube
 ```
 
-Создать и активировать виртуальное окружение:
+Создать виртуальное окружение:
 
 ```
 python -m venv venv
 ```
+Активировть виртуальное окружение.
 
 ```
 source/venv/Scripts/activate
 ```
 
-Установить зависимости из файла requirements.txt
+Обновить пакетный менеджер PIP:
 
 ```
 python -m pip install --upgrade pip
 ```
+
+Установить зависимости из файла requirements.txt
 
 ```
 pip install -r requirements.txt
@@ -42,12 +44,19 @@ pip install -r requirements.txt
 python manage.py migrate
 ```
 
-Запустить проект:
+Перейти в каталог с проектом:
 
 ```
 cd api_final_yatube
 ```
 
+Запустить проект
+
 ```
 python manage.py runserver
 ```
+
+##Автор
+👤 **Бурлака Владислав**
+
+-GitHub: [@kefranabg](https://github.com/vartexxx)

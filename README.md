@@ -56,7 +56,7 @@ cd api_final_yatube
 python manage.py runserver
 ```
 
-##Автор
+## Автор
 👤 **Бурлака Владислав**
 
--GitHub: [@kefranabg](https://github.com/vartexxx)
+-GitHub: [@vartexxx](https://github.com/vartexxx)
